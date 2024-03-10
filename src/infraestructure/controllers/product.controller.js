@@ -1,4 +1,5 @@
-import product from "../services/product.service.js";
+import product from "../../application/services/product.service.js";
+
 
 export async function getAll(req, res) {
     try {

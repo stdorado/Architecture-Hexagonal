@@ -1,11 +1,10 @@
 import express from "express"
-import ProductsRouter from "./application/router/products.router.js"
-import mongooseDb from "./infraestructure/database/config.database.js";
+import ProductsRouter from "./infraestructure/router/products.router.js"
+import mongooseDb from "./domain/database/config.database.js";
 
 
 const app = express()
 const port = process.env.PORT || 8080;
-console.log(process.env.PORT)
 
 
 
